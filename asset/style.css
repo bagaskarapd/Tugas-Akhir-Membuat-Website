@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202634;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #283044;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #283044;
+}
+
+#Darksouls-badge {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Darksouls';
+  src: url('Dark-Souls-Font/OptimusPrincepsSemiBold.ttf');
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Darksouls';
+  src: url('Dark-Souls-Font/OptimusPrincepsSemiBold.ttf');
+}
+
+.Bonfire {
+  background: url(Img/CROWN.png) no-repeat left center;
+  background-size: 80px;
+  word-wrap: normal;
+  height: 90px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.wolf {
+  background: url(Img/Bosses.png) no-repeat left center;
+  background-size: 80px;
+  word-wrap: normal;
+  height: 90px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.Sword {
+  background: url(Img/Sword.png) no-repeat left center;
+  background-size: 80px;
+  word-wrap: normal;
+  height: 90px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.NG {
+  text-decoration: underline;
+}
+
+h3 {
+  color: white;
+  font-weight: bolder;
+}
+
+
+p {
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+ol li {
+  font-weight: lighter;
+}
+
+ul li {
+  font-weight: lighter;
+}
+
+#content {
+  flex: 5;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#number1 {
+  background-image: url(Img/DarksoulsClasses2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+
+}
+
+#number2 {
+  background-image: url(Img/DarksoulsClasses3.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+}
+
+.grid-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.grid-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding-bottom: 10px;
+}
+
+.grid-container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-container6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-container7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-container8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-container9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+
+}
+
+.grid-container10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #283044;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-item2 {
+  padding: 20px;
+  font-size: 10px;
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 185px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.Asylum {
+  color: white;
+}
+
+#weapon1 {
+  background-image: url(Img/OolacileCatalyst.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 120px;
+  width: 100px;
+}
+
+#weapon2 {
+  background-image: url(Img/dragontooth.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 120px;
+  width: 100px;
+}
+
+#weapon3 {
+  background-image: url(Img/greatswordofartorias.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 120px;
+  width: 100px;
+}
+
+#weapon4 {
+  background-image: url(Img/gargoyleshalberd.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 120px;
+  width: 100px;
+}
+
+#weapon5 {
+  background-image: url(Img/zweihander.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 120px;
+  width: 100px;
+}
+
+#Bosses1 {
+  background-image: url(Img/AsylumDemon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#Bosses2 {
+  background-image: url(Img/BellGargoyle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses3 {
+  background-image: url(Img/CapraDemon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses4 {
+  background-image: url(Img/CeaselessDischarge.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses5 {
+  background-image: url(Img/CentipedeDemon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses6 {
+  background-image: url(Img/ChaosWitchQuelaag.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses7 {
+  background-image: url(Img/CrossbreedPriscilla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses8 {
+  background-image: url(Img/DarkSunGwyndolin.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses9 {
+  background-image: url(Img/DemonFiresage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses10 {
+  background-image: url(Img/FourKings.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses11 {
+  background-image: url(Img/GapingDragon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses12 {
+  background-image: url(Img/GreatGreywolfSif.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses13 {
+  background-image: url(Img/GwynLordofCinder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses14 {
+  background-image: url(Img/IronGolem.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses15 {
+  background-image: url(Img/MoonlightButterfly.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses16 {
+  background-image: url(Img/Nito.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses17 {
+  background-image: url(Img/Ornstein_Smough.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses18 {
+  background-image: url(Img/Pinwheel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses19 {
+  background-image: url(Img/SeaththeScaleless.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses20 {
+  background-image: url(Img/StrayDemon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses21 {
+  background-image: url(Img/TaurusDemon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Bosses22 {
+  background-image: url(Img/BedofChaos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 260px;
+  width: 360px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.Main-Text {
+  font-size: 25px;
+  padding: 60px;
+  background-image: url('Img/Main\ dark\ souls.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  font-family: 'Darksouls';
+  src: url('Dark-Souls-Font/OptimusPrincepsSemiBold.ttf');
+  text-align: center;
+  color: white;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.show-image {
+  width: 100%;
+  max-height: 650px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #283044;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  nav {
+    width: 100%;
+    position: relative;
+  }
+
+  nav ul li a {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 5px;
+
+  }
+
+  #number1 {
+    background-image: url(Img/DarksoulsClasses2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+  }
+
+  #number2 {
+    background-image: url(Img/DarksoulsClasses2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+  }
+
+  .grid-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: #283044;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+
+  #Bosses1 {
+    background-image: url(Img/AsylumDemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses2 {
+    background-image: url(Img/BellGargoyle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses3 {
+    background-image: url(Img/CapraDemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses4 {
+    background-image: url(Img/CeaselessDischarge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses5 {
+    background-image: url(Img/CentipedeDemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses6 {
+    background-image: url(Img/ChaosWitchQuelaag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses7 {
+    background-image: url(Img/CrossbreedPriscilla.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses8 {
+    background-image: url(Img/DarkSunGwyndolin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses9 {
+    background-image: url(Img/DemonFiresage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses10 {
+    background-image: url(Img/FourKings.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses11 {
+    background-image: url(Img/GapingDragon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses12 {
+    background-image: url(Img/GreatGreywolfSif.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses13 {
+    background-image: url(Img/GwynLordofCinder.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses14 {
+    background-image: url(Img/IronGolem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses15 {
+    background-image: url(Img/MoonlightButterfly.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses16 {
+    background-image: url(Img/Nito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses17 {
+    background-image: url(Img/Ornstein_Smough.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses18 {
+    background-image: url(Img/Pinwheel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses19 {
+    background-image: url(Img/SeaththeScaleless.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses20 {
+    background-image: url(Img/StrayDemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses21 {
+    background-image: url(Img/TaurusDemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #Bosses22 {
+    background-image: url(Img/BedofChaos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .grid-container3,
+  .grid-container4,
+  .grid-container5,
+  .grid-container6,
+  .grid-container7,
+  .grid-container8,
+  .grid-container9,
+  .grid-container10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: #283044;
+    padding-bottom: 10px;
+  }
+  footer {
+    padding: 20px;
+    color: #fff;
+    background-color: #283044;
+    text-align: center;
+  }
+}
